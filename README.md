@@ -50,7 +50,7 @@ import { render } from 'react-dom';
 import Markdown from '@sbjr-react-utils-components/markdown';
 
 // full options list (defaults)
-const conf = {
+const config = {
   html:         false,        // Enable HTML tags in source
   xhtmlOut:     false,        // Use '/' to close single tags (<br />).
                               // This is only for full CommonMark compatibility.
@@ -96,10 +96,10 @@ Example:
 ```js
 import React from 'react';
 import { render } from 'react-dom';
-import { parseMarkdownToHtml(content) } from '@sbjr-react-utils-components/markdown';
+import { parseMarkdownToHtml } from '@sbjr-react-utils-components/markdown';
 
 // full options list (defaults)
-const conf = {
+const config = {
   breaks: false,
 };
 
