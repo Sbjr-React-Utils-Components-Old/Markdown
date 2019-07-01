@@ -9,7 +9,7 @@ import MARKDOWN_DEFAULT_CONFIG from '../config/markdown';
  * @return html string parsed
 */
 function parseMarkdownToHtml(content, config = MARKDOWN_DEFAULT_CONFIG) {
-  return MarkdownIt(config).createMarkup(content);
+  return MarkdownIt(config).render(content);
 }
 
 export default parseMarkdownToHtml;

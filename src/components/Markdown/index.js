@@ -18,7 +18,7 @@ class Markdown extends React.Component {
   }
 
   render() {
-    const { children, ...rest } = this.props;
+    const { children, config, ...rest } = this.props;
     return (
       <div dangerouslySetInnerHTML={this.createMarkup(children)} {...rest} /> // eslint-disable-line
     );
