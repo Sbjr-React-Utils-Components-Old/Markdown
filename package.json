@@ -1,6 +1,6 @@
 {
   "name": "@sbjr-react-utils-components/markdown",
-  "version": "2.0.1",
+  "version": "3.0.0",
   "description": "A Markdown Renderer for react",
   "main": "./dist/bundle.js",
   "unpkg": "./dist/bundle.js",
@@ -23,7 +23,7 @@
     "type": "git",
     "url": "git+https://github.com/Sbjr-React-Utils-Components/Markdown.git"
   },
-  "author": "Sbibou-Jr <sbibou.jr@gmail.com>",
+  "author": "Billy Ros <billyros@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Sbjr-React-Utils-Components/Markdown/issues"
@@ -49,6 +49,7 @@
   },
   "dependencies": {
     "markdown-it": "^8.4.2",
+    "markdown-it-prism": "^2.0.3",
     "prop-types": "^15.7.2"
   },
   "peerDependencies": {

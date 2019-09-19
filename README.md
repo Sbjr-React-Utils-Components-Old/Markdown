@@ -6,7 +6,8 @@
 
 ## Install
 
-This module is a React component, so you must obviously have [react](https://github.com/facebook/react) installed.
+This module is a React component, so [react](https://github.com/facebook/react) is required.
+this module use [markdown-it](https://www.npmjs.com/package/markdown-it) and the [markdown-it-prism](https://www.npmjs.com/package/markdown-it-prism) plugin to use [prism](https://prismjs.com), the syntax highlighting library.
 
 ### CDN
 

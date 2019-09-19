@@ -1,4 +1,5 @@
 import MarkdownIt from 'markdown-it';
+import prism from 'markdown-it-prism';
 
 import MARKDOWN_DEFAULT_CONFIG from '../config/markdown';
 
@@ -9,7 +10,7 @@ import MARKDOWN_DEFAULT_CONFIG from '../config/markdown';
  * @return html string parsed
 */
 function parseMarkdownToHtml(content, config = MARKDOWN_DEFAULT_CONFIG) {
-  return MarkdownIt(config).render(content);
+  return MarkdownIt(config).use(prism).render(content);
 }
 
 export default parseMarkdownToHtml;
