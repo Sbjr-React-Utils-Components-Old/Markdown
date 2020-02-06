@@ -21,17 +21,17 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Sbjr-React-Utils-Components/Markdown.git"
+    "url": "git+https://github.com/Sbjr-React-Utils-Components-Old/Markdown.git"
   },
   "author": "Billy Ros <billyros@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Sbjr-React-Utils-Components/Markdown/issues"
+    "url": "https://github.com/Sbjr-React-Utils-Components-Old/Markdown/issues"
   },
   "files": [
     "dist"
   ],
-  "homepage": "https://github.com/Sbjr-React-Utils-Components/Markdown#readme",
+  "homepage": "https://github.com/Sbjr-React-Utils-Components-Old/Markdown#readme",
   "devDependencies": {
     "@babel/core": "^7.4.4",
     "@babel/preset-env": "^7.4.4",
