@@ -1,4 +1,6 @@
-# Sbjr-React-Utils-Components - Markdown
+# Sbjr-React-Utils-Components-Old - Markdown
+
+**Legacy !** [See the new version](https://github.com/SbibouJr/Sbjr-React-Utils-Components/tree/master/packages/markdown)
 
 **A Markdown Renderer for react**
 
